@@ -17,11 +17,11 @@ In the project directory, you can run:
 <ul>
 <li>state - count: 0</li>
 <li>actions - increment, decrement, reset</li>
-<li>reducers 
-        <li>increment -> count => count + 1</li>
-        <li>decrement -> count => count - 1</li>
-        <li>reset -> count => 0</li>
-</li>
+<li>reducers </li>
+   &nbsp;&nbsp;&nbsp;&raquo;&raquo;increment -> count => count + 1
+   &nbsp;&nbsp;&nbsp;&raquo;&raquo;decrement -> count => count - 1
+   &nbsp;&nbsp;&nbsp;&raquo;&raquo;reset -> count => 0
+<br>
 <li>store</li>
 <li>providing store</li>
 <li>use store</li>
