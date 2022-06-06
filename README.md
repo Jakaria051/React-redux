@@ -12,6 +12,8 @@ In the project directory, you can run:
 
 ### npm install redux-thunk
 
+### npm install axios
+
 ### Redux life cycle
 
 <ul>
