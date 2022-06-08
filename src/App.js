@@ -1,10 +1,11 @@
 import './App.css';
-import Todos from './components/Todos';
+import CounterView from './features/counter/CounterView';
 
 function App() {
   return (
     <div className="App">
-      <Todos />
+      <h1>Counter App</h1>
+      <CounterView />
     </div>
   );
 }

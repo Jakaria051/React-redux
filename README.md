@@ -14,6 +14,9 @@ In the project directory, you can run:
 
 ### npm install axios
 
+### npm install @reduxjs/toolkit
+
+
 ### Redux life cycle
 
 <ul>
