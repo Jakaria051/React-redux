@@ -1,62 +1,80 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: beige;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: rgb(235, 155, 155);
+  height: 5vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-section {
-  display: grid;
-  grid-gap: .5rem;
+  align-items: center;
   padding: 1rem;
 }
-
-article {
-  background-color: #293462;
+a {
+  color: aliceblue;
+}
+#nav .nav-link {
+  color: black;
+  margin: 0 1rem 0 0;
+  transition: all 0.3s;
+}
+#nav .nav-link:hover {
   color: white;
-  padding: 0.5rem;
 }
 
-@media (min-width: 600px) {
-  section {
-    grid-template-columns: auto auto;
-  }
+main {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-@media (min-width: 768px) {
-  section {
-    grid-template-columns: auto auto auto;
-  }
+h2 {
+  text-align: center;
+  margin: 3rem;
+}
+
+table {
+  margin: 3rem;
+  border-collapse: collapse;
+}
+td,th{
+  border: 1px solid;
+  padding: 1rem;
+}
+button {
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+.form-field {
+  margin: 1rem;
+}
+input {
+  width: 20rem;
+  padding: 0.2rem;
+}
+
+footer {
+  background-color: antiquewhite;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }

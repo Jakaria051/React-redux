@@ -6,15 +6,19 @@ In the project directory, you can run:
 
 # Package dependancy
 
-### npm install redux
+<!-- ### npm install redux -->
 
 ### npm install react-redux
 
-### npm install redux-thunk
+<!-- ### npm install redux-thunk -->
 
-### npm install axios
+<!-- ### npm install axios -->
 
 ### npm install @reduxjs/toolkit
+
+### npm install react-router-dom
+
+### npm install uuid
 
 
 ### Redux life cycle
